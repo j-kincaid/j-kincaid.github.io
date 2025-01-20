@@ -70,7 +70,7 @@ div.flicker {
 }
 
 header {
-  height: 30vh;
+  height: 40vh;
   width: 100%;
 }
 
@@ -257,7 +257,7 @@ footer {
 }
 
 footer img {
-  max-width: 10%;
+  max-width: 15%;
 }
 
 p.copyright {
@@ -281,7 +281,7 @@ footer ul li img {
 
 p {
   display: inline-block;
-  margin-bottom: 1.8em;
+  margin-bottom: 10.0vh;
 }
 
 
@@ -296,20 +296,22 @@ p.copy {
 }
 
 footer {
+  height: 12vh;
   font-size: 5rem;
   background-color:#c25100;
-  padding: 50px 0 20px;
+  padding: 10px 0 20px;
   text-align: center;
 }
 
 footer ul {
   list-style-type: none;
   text-decoration: none;
-  margin: 40px auto;
+  margin: 0.25vw 0;
   color: #000;
 }
+
 footer ul li {
-  padding: 0.20vw;
+  padding: 0.85vw;
 }
 
 /* -------------------------------Media Queries------------------------------------- */
@@ -326,6 +328,10 @@ footer ul li {
     position: relative;
     padding: 1rem;
     margin: -3rem 0 2rem 1rem;
+  }
+
+  footer {
+    height: 4vh;
   }
 }
 
