@@ -258,14 +258,15 @@ footer {
 
 img.top {
   margin-top: 2.0rem;
-  max-width: 13%;
+  max-width: 12%;
+  margin-bottom: 4.0rem;
 }
 
 p.copyright {
-  font-weight: normal;
   color: #000;
-  font-size: 1.65rem;
-  margin-bottom: 8.25rem;
+  font-weight:bolder;
+  font-size: 1.75rem;
+  margin-bottom: 6.0rem;
 }
 
 footer ul {
@@ -275,10 +276,6 @@ footer ul {
   height: 200%;
 }
 
-footer ul li img {
-  max-width: 2.0rem; 
-  margin-bottom: 6.25rem;
-}
 
 p {
   display: inline-block;
@@ -288,31 +285,29 @@ p {
 
 p.paragraph-left,
 p.paragraph-right {
-  font-size: 1.05rem;
+  font-size: 1.5rem;
 }
 
-p.copy {
-  font-size: .35em;
-  margin: 0;
-}
 
 footer {
-  height: 12vh;
+  height: 10vh;
   font-size: 5rem;
   background-color:#c25100;
   padding: 10px 0 20px;
   text-align: center;
+  opacity: 0.6;
 }
 
 footer ul {
   list-style-type: none;
   text-decoration: none;
   margin: 0.25vw 0;
-  color: #000;
+  color: #FFF;
 }
 
 footer ul li {
   padding: 0.85vw;
+  color: #FFF;
 }
 
 /* -------------------------------Media Queries------------------------------------- */
