@@ -70,15 +70,15 @@ div.flicker {
 }
 
 header {
-  height: 40vh;
+  padding-bottom: 8vh;
   width: 100%;
+  color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(0, 0, 0, 0.55);
 }
 
 header,
 footer {
   display: block;
-  color: rgba(255, 255, 255, 0.9);
-  background-color: rgba(0, 0, 0, 0.55);
 }
 
 article.skill-row,
@@ -256,8 +256,9 @@ footer {
   width: 100%;
 }
 
-footer img {
-  max-width: 15%;
+img.top {
+  margin-top: 2.0rem;
+  max-width: 13%;
 }
 
 p.copyright {
