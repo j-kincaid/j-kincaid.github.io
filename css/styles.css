@@ -201,7 +201,7 @@ img.spoils-image {
   border: 0.5px solid darkgray;
   border-radius: 2%;
   max-width: 85%;
-  padding-bottom: 5px;
+  /* padding-bottom: 5px; */
 }
 img.spoils-image {
   max-width: 50%;
